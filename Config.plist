@@ -12,16 +12,16 @@
 	<key>Actions</key>
 	<array>
 		<dict>
-			<key>URL</key>
-			<string>http://tureng.com/en/turkish-english/{popclip text}</string>
+			<key>Long Running</key>
+			<true/>
+			<key>AppleScript File</key>
+			<string>tureng.applescript</string>
 			<key>Title</key>
 			<string>Tureng</string>
 			<key>Image File</key>
 			<string>tureng.png</string>
 			<key>Regular Expression</key>
 			<string>[A-Za-z]+((\s[A-Za-z])?[A-Za-z])*</string>
-			<key>Pass HTML</key>
-			<false/>
 			<key>Restore Pasteboard</key>
 			<true/>
 		</dict>
@@ -34,7 +34,7 @@
 			<key>Check Installed</key>
 			<true/>
 			<key>Link</key>
-			<string>http://tureng.com/en/turkish-english/</string>
+			<string>http://itunes.apple.com/app/id854063979</string>
 			<key>Name</key>
 			<string>Tureng</string>
 		</dict>
