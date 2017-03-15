@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>URL</key>
-			<string>tureng://automatic/?{popclip text}</string>
+			<string>http://tureng.com/en/turkish-english/{popclip text}</string>
 			<key>Title</key>
 			<string>Tureng</string>
 			<key>Image File</key>
