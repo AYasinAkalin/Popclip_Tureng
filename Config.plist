@@ -5,18 +5,39 @@
 	<key>Actions</key>
 	<array>
 		<dict>
-			<key>Image File</key>
-			<string>example.png</string>
-			<key>Shell Script File</key>
-			<string>example.sh</string>
+			<key>URL</key>
+			<string>tureng://automatic/?{popclip text}</string>
 			<key>Title</key>
-			<string>Example</string>
+			<string>Tureng</string>
+			<key>Image File</key>
+			<string>tureng.png</string>
+			<key>Regular Expression</key>
+			<string>[A-Za-z]+((\s[A-Za-z])?[A-Za-z])*</string>
+			<key>Pass HTML</key>
+			<false/>
+			<key>Restore Pasteboard</key>
+			<true/>
 		</dict>
 	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.tureng.sozlukosx</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+			<string>http://tureng.com/en/turkish-english/</string>
+			<key>Name</key>
+			<string>Tureng</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Translate an English word to Turkish using Tureng</string>
 	<key>Extension Identifier</key>
-	<string>com.pilotmoon.popclip.extension.example</string>
+	<string>com.ayasinakalin.popclip.extension.tureng</string>
 	<key>Extension Name</key>
-	<string>Example</string>
+	<string>Tureng</string>
 	<key>Required Software Version</key>
 	<integer>1459</integer>
 </dict>
