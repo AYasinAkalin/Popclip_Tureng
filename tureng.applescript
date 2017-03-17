@@ -20,8 +20,15 @@ try
 			try
 				set searchBar to text field 1 of group 4
 			on error
-				set searchButton to radio button 1 of radio group 1 of group 3
-				--log "button set"
+				--name of every radio button of radio group 1 of group 3
+				tell group 3 to tell radio group 1
+					if radio button "Search" exists then
+						set searchButton to radio button "Search"
+					else
+						set searchButton to radio button 1
+					end if
+					--log "button set"
+				end tell
 				click searchButton
 				set searchBar to text field 1 of group 4
 			end try
